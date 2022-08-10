@@ -1,0 +1,152 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style: none;
+    font-family: sans-serif;
+}
+
+
+
+.head {
+    background-image: url(images/chuttersnap-fN603qcEA7g-unsplash.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+    width: 100%;
+    background-attachment: fixed;
+    
+
+}
+
+.header {
+    height: 100vh;
+    background-color: rgba(10,40,60,0.7);
+
+
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    color: white;
+
+}
+
+ul {
+    margin-right: 80px;
+}
+
+li {
+    display: inline-block;
+    margin: 20px 15px;
+
+
+}
+
+.logo h1 {
+    margin: 20px 30px;
+    font-size: 28px;
+
+
+}
+
+
+ul li a:link, a:visited {
+
+    color: white;
+    line-height: 70px;
+    font-size: 18px;
+
+
+
+
+}
+
+.centerBox {
+    width: 80%;
+    margin-right: auto;
+    margin-left: auto;
+    text-align: center;
+    color: white;
+    padding-top: 15vh;
+
+
+}
+
+
+.centerBox h1 {
+    font-size: 48px;
+    font-weight: 300;
+    margin-bottom: 30px;
+}
+
+
+.centerBox h3 {
+    font-size: 24px;
+    font-weight: 300;
+    margin-bottom: 30px;
+
+    
+}
+
+
+.centerBox a {
+
+    border: 2px solid white;
+    border-radius: 5px;
+    padding: 10px 30px;
+    font-family: 28px;
+    text-transform: capitalize;
+    
+
+
+
+
+}
+
+
+
+.services {
+ 
+    background-color: ghostwhite;
+    padding: 3vh 0vh;
+
+
+
+}
+
+.services h1 {
+    text-align: center;
+    margin-top: 7vh;
+    margin-bottom: 10vh;
+    font-size: 26px;
+}
+
+.row {
+    display: flex;
+    justify-content: space-evenly;
+    height: 75vh;
+
+}
+
+.services-cards {
+    width: 55vh;
+    text-align: center;
+    background-color: white;
+    border: 2px ghostwhite solid;
+    padding: 5vh 6vh;
+    height: 65vh;
+
+
+}
+
+.services-cards h5 {
+    font-size: 22px;
+    margin-bottom: 2vh;
+}
+
+
+
